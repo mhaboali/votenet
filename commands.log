@@ -1,0 +1,253 @@
+    1  ifconfig
+    2  sudo nano /usr/share/glib-2.0/schemas/org.gnome.Vino.gschema.xml
+    3  sudo apt install nano
+    4  sudo nano /usr/share/glib-2.0/schemas/org.gnome.Vino.gschema.xml
+    5  sudo glib-compile-schemas /usr/share/glib-2.0/schemas
+    6  sudo nano /usr/share/glib-2.0/schemas/org.gnome.Vino.gschema.xml
+    7  sudo glib-compile-schemas /usr/share/glib-2.0/schemas
+    8  sudo nano /usr/share/glib-2.0/schemas/org.gnome.Vino.gschema.xml
+    9  sudo glib-compile-schemas /usr/share/glib-2.0/schemas
+   10  gsettings set org.gnome.Vino require-encryption false
+   11  gsettings set org.gnome.Vino prompt-enabled false
+   12  ifconfig
+   13  ps -ef|grep vnc
+   14  sudo apt install terminator
+   15  git clone https://github.com/JetsonHacksNano/installROS.git
+   16  cd installROS/
+   17  ./installROS.sh -p ros-melodic-desktop
+   18  ./setupCatkinWorkspace.sh
+   19  cat /etc/nv_tegra_release
+   20  cd
+   21  cd jetsonUtilities/
+   22  python jetsonInfo.py
+   23  cd
+   24  git clone https://github.com/JetsonHacksNano/installLibrealsense
+   25  cd installLibrealsense/
+   26  ./buildLibrealsense.sh
+   27  sudo apt install gedit
+   28  gedit  buildLibrealsense.sh 
+   29  ./buildLibrealsense.sh
+   30  rs-enumerate-devices
+   31  realsense-viewer
+   32  rs-pointcloud 
+   33  rs-tracking-and-depth
+   34  cd
+   35  git clone ./installVSCode.sh
+   36  git clone https://github.com/mhaboali/votenet.git
+   37  cd votenet/pointnet2/
+   38  python setup.py install
+   39  pip install torch torchvision
+   40  sudo apt install python3-pip
+   41  python setup.py install
+   42  python -V
+   43  sudo apt install virualenv
+   44  sudo apt install virtualenv
+   45  cd
+   46  virtualenv -p /usr/bin/python3.6 --distribute temp-python3
+   47  source temp-python3/bin/activate
+   48  python setup.py install
+   49  cd votenet/pointnet2/
+   50  python setup.py install
+   51  pip install torch torchvision
+   52  sudo pip install torch torchvision
+   53  pip install torch torchvision
+   54  pip3 install wheel
+   55  pip3 install torch torchvision
+   56  python -m pip install torch torchvision
+   57  sudo apt install libpq-dev
+   58  pip install torch torchvision
+   59  sudo apt-get install libpq-dev python-dev
+   60  apt-get build-dep python-psycopg2
+   61  sudo apt-get build-dep python-psycopg2
+   62  apt-get build-dep python-psycopg2
+   63  sudo apt-get install  build-dep python-psycopg2
+   64  sudo apt-get install postgresql postgresql-dev python-dev
+   65  sudo apt-get install libpq-dev python-dev
+   66  echo $PYTHONP
+   67  echo $PYTHONPATH
+   68  export  PYTHONPATH=jn1@jn1:~/installVSCode$ /usr/bin/python3
+   69  export  PYTHONPATH= /usr/bin/python3
+   70  export PYTHONPATH=/usr/bin/python3
+   71  pip install torch torchvision
+   72  pip install --upgrade setuptools
+   73  pip install torch torchvision
+   74  pip install wheels
+   75  nvcc --version
+   76  echo $PATH
+   77  export PATH=$PATH:/usr/local/cuda-10.2/
+   78  nvcc --version
+   79  export LD_LIBRARY_PATH=/usr/local/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.2/
+   80  nvcc --version
+   81  ls /usr/local/cuda/bin | grep nvcc
+   82  export LD_LIBRARY_PATH=/usr/local/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.2/:/usr/local/cuda/bin
+   83  pip install torch torchvision
+   84  nvcc --version
+   85  export LD_LIBRARY_PATH=/usr/local/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.2/:/usr/local/cuda/lib64
+   86  nvcc --version
+   87  export PATH=
+   88  export LD_LIBRARY_PATH='/usr/local/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.2/:/usr/local/cuda/lib64' 
+   89  export LD_LIBRARY_PATH=
+   90  export LD_LIBRARY_PATH=/usr/local/lib:/opt/ros/melodic/lib:/usr/local/cuda/lib64
+   91  export PYTHONPATH=$PYTHONPATH:/usr/local/lib
+   92  export PATH=$PATH:/usr/local/cuda/bin
+   93  nvcc --version
+   94  pip install torch torchvision
+   95  export PATH=$PATH:/home/jn1/temp-python3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+   96  pip install torch torchvision
+   97  pip install gevent --pre
+   98  sudo pip install gevent --pre
+   99  pip install --no-use-wheel --upgrade distribute
+  100  pip install --upgrade setuptools
+  101  pip install -U setuptools
+  102  sudo python -m pip installgevent --pre
+  103  sudo python -m pip install gevent --pre
+  104  python -m pip install gevent --pre
+  105  pip install torch torchvision
+  106  pip install Cython
+  107  pip install torch torchvision
+  108  wget https://nvidia.box.com/shared/static/ncgzus5o23uck9i5oth2n8n06k340l6k.whl -O torch-1.4.0-cp36-cp36m-linux_aarch64.whl
+  109  sudo apt-get install python3-pip libopenblas-base libopenmpi-dev 
+  110  pip3 install numpy torch-1.4.0-cp36-cp36m-linux_aarch64.whl
+  111  git clone --branch 0.5.0 https://github.com/pytorch/vision torchvision
+  112  git clone --branch v0.5.0 https://github.com/pytorch/vision torchvision
+  113  cd torchvision/
+  114  sudo python setup.py install
+  115  cd ..
+  116  pip3 install numpy torch-1.4.0-cp36-cp36m-linux_aarch64.whl
+  117  cd torchvision/
+  118  sudo python setup.py install
+  119  echo PYTHONPATH
+  120  echo $PYTHONPATH
+  121  export PYTHONPATH=$PYTHONPATH:/home/jn1/temp-python3/lib/python3.6/site-packages
+  122  sudo python setup.py install
+  123  pip install 'pillow<7'
+  124  python
+  125  sudo dpkg -i cuda-repo-ubuntu1804_10.0.130-1_amd64.deb
+  126  sudo apt-get install python-pip cmake
+  127  pip install -U pip
+  128  nvcc -V
+  129  nvidia-smi
+  130  python -c 'import torch;print(torch.cuda.is_available())'
+  131  pip install cudatoolkit=10.0
+  132  pip install cudatoolkit==10.0
+  133  sudo apt install cudatoolkit=10.0
+  134  sudo fallocate -l 8G /mnt/8GB.swap
+  135  sudo mkswap /mnt/8GB.swap
+  136  sudo swapon /mnt/8GB.swap
+  137  pip install torch 
+  138  pip install torchvision
+  139  cd ..
+  140  ls
+  141  python setup.py install
+  142  pip uninstall torch
+  143  pip install torch
+  144  pip install cupy-cuda102
+  145  ls
+  146  rm -rf torchvision/
+  147  wget 
+  148  wget https://nvidia.box.com/shared/static/3ibazbiwtkl181n95n9em3wtrca7tdzp.whl
+  149  ls
+  150  pip install 3ibazbiwtkl181n95n9em3wtrca7tdzp.whl
+  151  mv 3ibazbiwtkl181n95n9em3wtrca7tdzp.whl  torch-1.5.0-cp36-cp36m-linux_aarch64.whl
+  152  ls
+  153  pip install torch-1.5.0-cp36-cp36m-linux_aarch64.whl
+  154  git clone --branch v0.6.0 https://github.com/pytorch/vision torchvision
+  155  cd torchvision/
+  156  sudo python setup.py install
+  157  python
+  158  pip install torchvision
+  159  cd ..
+  160  python setup.py install
+  161  python
+  162  python -c "import torch; print(torch.get_file_path())"
+  163  python -c "import torch; print(torch.__version__)"
+  164  echo $PATH
+  165  echo $PPYTHONATH
+  166  echo $PYTHONPATH
+  167  python setup.py install
+  168  pip install matplotlib opencv-python plyfile 'trimesh>=2.35.39,<2.35.40'  'networkx>=2.2,<2.3'
+  169  cd
+  170  git clone https://github.com/JetsonHacksNano/buildOpenCV
+  171  cd buildOpenCV/
+  172  ls
+  173  ./buildOpenCV.sh 
+  174  cd ../votnet
+  175  cd
+  176  cd votnet
+  177  ls
+  178  cd votenet/
+  179  c
+  180  pip install plyfile
+  181  pip install 'trimesh>=2.35.39,<2.35.40'
+  182  python -m pip install 'trimesh>=2.35.39,<2.35.40'
+  183  wget 
+  184  wget https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/conda-forge/noarch/trimesh-2.35.39-py_0.tar.bz2
+  185  pip install trimesh-2.35.39-py_0.tar.bz2 
+  186  pip install trimesh
+  187  pip install 
+  188  pip install 'networkx>=2.2,<2.3'
+  189  ls
+  190  python demo.py
+  191  pip install matplotlib
+  192  python demo.py
+  193  pip install scipy
+  194  sudo apt-get install python3-scipy
+  195  python demo.py
+  196  sudo apt-get install pytho-scipy
+  197  sudo apt-get install python-scipy
+  198  python demo.py
+  199  sudo pip install scipy
+  200  sudo pip3 install scipy
+  201  python demo.py
+  202  sudo 
+  203  sudo apt-get -y install python3-scipy
+  204  echo $PYTHONPATH
+  205  export PYTHONPATH=$PYTHONPATH:/usr/lib/python3/dist-packages
+  206  echo $PYTHONPATH 
+  207  export PYTHONPATH=/usr/bin/python3:/usr/local/lib:/home/jn1/temp-python3/lib/python3.6/site-packages
+  208  python demo.py
+  209  sudo apt-get update sudo apt-get install -y build-essential libatlas-base-dev
+  210  sudo apt-get update 
+  211  sudo apt-get install -y build-essential libatlas-base-dev
+  212  sudo apt-get install gfortran
+  213  pip install scipy
+  214  python demo.py
+  215  pip install opencv-python
+  216  sudo apt install python3-opencv
+  217  python demo.py
+  218  sudo apt-get install python3-opencv
+  219  python
+  220  pip install python-opencv
+  221  sudo apt-get install opencv
+  222  sudo apt update
+  223  sudo apt install -y build-essential cmake git libgtk2.0-dev pkg-config  libswscale-dev libtbb2 libtbb-dev
+  224  sudo apt install -y python-dev python3-dev python-numpy python3-numpy
+  225  sudo apt install -y  libjpeg-dev libpng-dev libtiff-dev libjasper-dev
+  226  locate opencv
+  227  python -m pip install python-opencv
+  228  python3.6 -m pip install opencv-python
+  229  pip install opencv-contrib-python   
+  230  pip freeze | grep opencv-pytho
+  231  find / | grep opencv
+  232  /usr/bin/opencv_version
+  233  echo $LD_LIBRARY_PATH 
+  234  echo $PATH
+  235  opencv_version 
+  236  echo $PYTHONPATH 
+  237  ls /usr/local/lib/python3.6/site-packages/ | grep open
+  238  find /usr/local/lib/python3.6 | grep open
+  239  ls
+  240  ls pointnet2/
+  241  find /usr/local/lib/python3.6 | grep cv2
+  242  echo $PYTHONPATH 
+  243  export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python3.6/site-packages
+  244  python demo.py
+  245  pip install trimesh>=2.35.39,<2.35.40
+  246  pip install 'trimesh>=2.35.39,<2.35.40'
+  247  python demo.py
+  248  pip install 
+  249  pip install 'networkx>=2.2,<2.3'
+  250  python demo.py
+  251  ls
+  252  h > commands.log
+  253  history > commands.log
