@@ -47,7 +47,7 @@ if __name__=='__main__':
         sys.path.append(os.path.join(ROOT_DIR, 'sunrgbd'))
         from sunrgbd_detection_dataset import DC # dataset config
         checkpoint_path = os.path.join(demo_dir, 'pretrained_votenet_on_sunrgbd.tar')
-        pc_path = os.path.join(demo_dir, 'input_pc_sunrgbd.ply')
+        pc_path = os.path.join(demo_dir, 'point_cloud_6.ply')
     elif FLAGS.dataset == 'scannet':
         sys.path.append(os.path.join(ROOT_DIR, 'scannet'))
         from scannet_detection_dataset import DC # dataset config
@@ -81,6 +81,7 @@ if __name__=='__main__':
    
     # Load and preprocess input point cloud 
     net.eval() # set model to eval mode (for bn and dp)
+    print(pc_path)
     point_cloud = read_ply(pc_path)
     pc = preprocess_point_cloud(point_cloud)
     print('Loaded point cloud data: %s'%(pc_path))
